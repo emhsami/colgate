@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-wrapper {
+    height: 300px;
+    width: 980px;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 0 50px;
+}
+
+.main-wrapper * {
+    position: absolute;
+}
+
+.ray {
+    top: -114px;
+    left: 533px;
+    scale: 1.2;
+}
+
+.logo, .model, .frame1_copy2_1 {
+    opacity: 0;
+}
+
+.frame1_copy1, .frame1_copy2, .cta {
+    left: 560px;
+}
+
+.frame1_copy2_1 {
+    scale: 0;
+    opacity: 0;
+    top: 114px;
+    left: 390px;
+}
+
+.frame2_copy1, .expert_white {
+    top: 121px;
+    left: 21px;
+    scale: 0;
+    opacity: 0;
+}
+
+.expert_white {
+    left: 80px;
+}
+
+.bg3, .circle_2, .teeth {
+    opacity: 0;
+}
+
+.packshot {
+    left: 630px;
+}
